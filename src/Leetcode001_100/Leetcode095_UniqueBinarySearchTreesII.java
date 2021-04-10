@@ -3,12 +3,6 @@ package Leetcode001_100;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * 二叉搜索树II
- * 给定一个整数 n，生成所有由 1 ... n 为节点所组成的 二叉搜索树 。
- * @author DeLL
- *
- */
 public class Leetcode095_UniqueBinarySearchTreesII {
 	
 	public List<TreeNode> generateTrees(int n) {
