@@ -1,20 +1,20 @@
 package Leetcode001_100;
 
 /**
- * ÒÔK¸öÒ»×é·´×ªÁ´±í
+ * ä»¥Kä¸ªä¸€ç»„åè½¬é“¾è¡¨
  * @author DeLL
  *
  */
 public class Leetcode025_ReverseNodesin_K_Group {
 	public ListNode reverseKGroup(ListNode head, int k) {
-		// ¶¨ÒåÒ»¸öĞéÄâÍ·½áµã
+		// å®šä¹‰ä¸€ä¸ªè™šæ‹Ÿå¤´ç»“ç‚¹
 		ListNode hair = new ListNode(0);
 		hair.next = head;
 		ListNode pre = hair;
 		
 		while (head != null) {
 			ListNode tail = pre;
-			// ²é¿´Ê£Óà²¿·ÖÊÇ·ñ´óÓÚµÈÓÚk
+			// æŸ¥çœ‹å‰©ä½™éƒ¨åˆ†æ˜¯å¦å¤§äºç­‰äºk
 			for (int i = 0; i < k; i++) {
 				tail = tail.next;
 				if (tail == null) {
@@ -27,7 +27,7 @@ public class Leetcode025_ReverseNodesin_K_Group {
 			head = reverse[0];
 			tail = reverse[1];
 			
-			// °Ñ×ÓÁ´±íÖØĞÂ½Ó»ØÔ­Á´±í
+			// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½Ó»ï¿½Ô­ï¿½ï¿½ï¿½ï¿½
 			pre.next = head;
 			tail.next = next;
 			pre = tail;

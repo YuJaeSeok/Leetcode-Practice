@@ -1,9 +1,7 @@
 package Leetcode001_100;
 
 /**
- * 合并k个升序链表
- * 
- * 分治 + 递归
+ * 鍚堝苟涓や釜鏈夊簭閾捐〃
  * 
  * @author DeLL
  *

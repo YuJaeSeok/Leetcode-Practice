@@ -1,11 +1,7 @@
 package sort;
 
-import java.util.Arrays;
-
 public class QuickSort {
-	
-	public static int[] quickSort(int[] nums) {
-		
+	public int[] quickSort(int[] nums) {
 		if (nums == null || nums.length == 0) return null; 
 		
 		int[] i = nums;
@@ -13,7 +9,7 @@ public class QuickSort {
 		return i;
 	}
 
-	public static void quickSort(int[] nums, int left, int right) {	
+	public void quickSort(int[] nums, int left, int right) {	
 		int i = left;
 		int j = right;
 		
@@ -52,11 +48,5 @@ public class QuickSort {
 		if (i < right) {
 			quickSort(nums, i, right);
 		}
-	}
-	
-	public static void main(String[] args) {
-		int[] arr = {1, 4, 5, 67, 2, 7, 8, 6, 9, 44};
-		int[] j = quickSort(arr);
-		System.out.println(Arrays.toString(j));
 	}
 }

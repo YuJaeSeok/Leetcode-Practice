@@ -4,10 +4,10 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Iterator;
 /**
- * ×îĞ¡¸²¸Ç×Ó´®
+ * æœ€å°è¦†ç›–å­ä¸²
  * @author DeLL
- * ÊäÈë£ºs = "ADOBECODEBANC", t = "ABC"
- * Êä³ö£º"BANC"
+ * è¾“å…¥ï¼šs = "ADOBECODEBANC", t = "ABC"
+ * è¾“å‡ºï¼š"BANC"
  */
 public class Leetcode076_MinimumWindowSubstring {
 	

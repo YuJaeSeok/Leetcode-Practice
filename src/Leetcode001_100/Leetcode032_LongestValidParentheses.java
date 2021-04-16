@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * ×î³¤ÓĞĞ§À¨ºÅ
+ * æœ€é•¿æœ‰æ•ˆæ‹¬å·
  * @author DeLL
  *
  */
