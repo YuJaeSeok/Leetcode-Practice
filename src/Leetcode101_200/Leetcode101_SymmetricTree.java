@@ -1,7 +1,7 @@
 package Leetcode101_200;
 
 /**
- * ÊÇ·ñÊÇÒ»¿Å¾µÏñÊ÷
+ * ï¿½Ç·ï¿½ï¿½ï¿½Ò»ï¿½Å¾ï¿½ï¿½ï¿½ï¿½ï¿½
  * @author DeLL
  *
  */
@@ -24,4 +24,9 @@ class TreeNode {
 	 TreeNode left;
 	 TreeNode right;
 	 TreeNode(int x) { val = x; }
+	 TreeNode(int x, TreeNode left, TreeNode right) {
+		 val = x;
+		 this.left = left;
+		 this.right = right;
+	 }
 }
